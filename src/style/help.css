@@ -1,0 +1,31 @@
+.help-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: var(--surface);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+}
+
+.help-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: var(--text);
+}
+
+.help-section {
+    margin-bottom: 25px;
+}
+
+.help-section h3 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.help-section p {
+    color: var(--muted);
+    line-height: 1.6;
+    font-size: 1rem;
+}

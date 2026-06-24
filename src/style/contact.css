@@ -1,0 +1,31 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    gap: 7px;
+
+    max-width: 500px;
+    margin: 30px auto;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    border-radius: 14px;
+    border: 1px solid var(--border);
+}
+h5{
+    margin: 0;
+}
+button{
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background-color: var(--primary-soft);
+    color: var(--text);
+    font-size: 1.1em;
+    width: 55px;
+}
+button:hover{
+     transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}

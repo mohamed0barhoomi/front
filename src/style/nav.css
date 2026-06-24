@@ -1,0 +1,151 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 2px solid rgba(105, 199, 240, 0.27);
+
+    max-width: 1300px;
+    margin: 18px auto 12px;
+    padding: 8px 15px;
+
+    background: var(--surface);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+
+    /* IMPORTANT */
+    overflow: visible;
+}
+
+.linkk {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--text);
+
+    border: 1px solid var(--border);
+    border-radius: 12px;
+
+    padding: 6px 10px;
+
+    background-color: var(--primary-soft);
+
+    transition: 0.3s;
+}
+
+.linkk:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.funct {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.search {
+    width: 230px;
+    height: 35px;
+
+    border: 1px solid var(--border);
+    border-radius: 12px;
+
+    padding: 0 10px;
+    outline: none;
+    background: var(--surface-soft);
+}
+
+/* PROFILE MENU */
+
+.profile-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.profile-menu img {
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.profile-menu img:hover {
+    transform: scale(1.1);
+}
+
+/* DROPDOWN */
+
+.dropdown {
+    position: absolute;
+
+    top: 55px;
+    right: 0;
+
+    width: 180px;
+
+    background: var(--surface);
+    border-radius: 12px;
+
+    box-shadow: var(--shadow);
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    z-index: 9999;
+}
+
+.dropdown a,
+.dropdown button {
+    
+    padding: 12px 15px;
+
+    text-decoration: none;
+    color: var(--text);
+
+    background: var(--surface);
+    border: none;
+
+    text-align: left;
+    font-size: 1rem;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dropdown a:hover,
+.dropdown button:hover {
+    background: var(--primary-soft);
+}
+
+.dropdown button {
+    position: relative;
+    left: 40px;
+    color: #c0392b;
+    font-weight: bold;
+    border-top: 1px solid #eee;
+}
+.logout{
+    color: white;
+    font-weight: bold;
+    border-top: 1px solid #eee;
+    background-color: #d9534f;
+    padding: 10px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.admin_h{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--text);
+
+    border: 1px solid var(--border);
+    border-radius: 12px;
+
+    padding: 6px 50px;
+
+    background-color: var(--primary-soft);
+
+    transition: 0.3s;
+}
